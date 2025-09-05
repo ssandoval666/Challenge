@@ -68,12 +68,38 @@ namespace Api.Controllers
 
 		// PUT: api/products/5
 		[HttpPut("{id}")]
-		public async Task<IActionResult> UpdateProduct(int id, Product product)
+		public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductDto dto)
 		{
-			if (id != product.ProductID)
+			if (id != dto.ProductID)
 				return BadRequest();
 
-			_context.Entry(product).State = EntityState.Modified;
+			var product = await _context.Products
+				.Include(p => p.ProductCategories)
+					.ThenInclude(pc => pc.Category)
+				.FirstOrDefaultAsync(p => p.ProductID == id);
+
+			if (product == null)
+				return NotFound();
+
+			product.Name = dto.Name;
+			product.Description = dto.Description;
+
+			
+			foreach (var pc in product.ProductCategories)
+			{
+				_context.ProductCategories.Remove(pc);
+			}
+
+			foreach (var catId in dto.CategoryIDs)
+			{
+				product.ProductCategories.Add(new ProductCategory
+				{
+					CategoryID = catId
+				});
+			}
+
+
+			//_context.Entry(dto).State = EntityState.Modified;
 
 			try
 			{

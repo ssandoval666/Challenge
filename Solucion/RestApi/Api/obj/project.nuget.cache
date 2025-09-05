@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SMGZjIIDMn0=",
+  "dgSpecHash": "ZQYgqkPf4PA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebastian\\Desktop\\Prueba\\Solucion\\RestApi\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebastian\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\sebastian\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

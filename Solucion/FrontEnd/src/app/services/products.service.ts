@@ -69,7 +69,15 @@ getById(id: number): Observable<Product> {
 }
 
   update(id: number, product: Product): Observable<void> {
-    return this.http.put<void>(`${this.apiUrl}/${id}`, product);
+    const dto = {
+    productID: product.productID,
+    name: product.name,
+    description: product.description,
+    image: product.image,
+    categoryIDs: product.productCategories.map(pc => pc.categoryID)
+  };
+  
+    return this.http.put<void>(`${this.apiUrl}/${id}`, dto);
   }
 
   delete(id: number): Observable<void> {
