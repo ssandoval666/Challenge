@@ -1,0 +1,27 @@
+<div class="container mt-4">
+  <h2>{{ categoryId ? 'Editar Categoría' : 'Nueva Categoría' }}</h2>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nombre</label>
+      <input
+        id="name"
+        type="text"
+        formControlName="name"
+        class="form-control"
+        placeholder="Ingrese nombre de categoría"
+      />
+      <div
+        *ngIf="form.get('name')?.invalid && form.get('name')?.touched"
+        class="text-danger mt-1"
+      >
+        El nombre es requerido
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="form.invalid">
+      {{ categoryId ? 'Actualizar' : 'Crear' }}
+    </button>
+    <a routerLink="/categories" class="btn btn-secondary ms-2">Cancelar</a>
+  </form>
+</div>
