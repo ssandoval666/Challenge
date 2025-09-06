@@ -1,18 +1,36 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 import { ProductsService } from '../../services/products.service';
 import { Product } from '../../models/product.model';
 
 @Component({
   standalone: true,
   selector: 'app-products-list',
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, FormsModule],
   template: `
   <div class="d-flex justify-content-between align-items-center mb-3">
     <h2 class="m-0">Productos</h2>
     <a routerLink="/products/new" class="btn btn-primary">Nuevo Producto</a>
   </div>
+
+  <!-- Filtro por nombre -->
+  <div class="card mb-3 shadow-sm">
+    <div class="card-body">
+      <form class="row g-2">
+        <div class="col-md-10">
+          <input [(ngModel)]="searchName" name="searchName" type="text"
+                 placeholder="Buscar por nombre"
+                 class="form-control" />
+        </div>
+        <div class="col-md-2 d-grid">
+          <button type="button" class="btn btn-outline-secondary" (click)="clearFilters()">Limpiar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
   <div class="card shadow-sm">
     <div class="card-body p-0">
       <div class="table-responsive">
@@ -27,7 +45,7 @@ import { Product } from '../../models/product.model';
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let p of products">
+            <tr *ngFor="let p of filteredProducts()">
               <td>{{ p.productID }}</td>
               <td>{{ p.name }}</td>
               <td class="text-muted">{{ p.description }}</td>
@@ -54,6 +72,8 @@ export class ProductsListComponent implements OnInit {
   products: Product[] = [];
   loading = false;
 
+  searchName = '';
+
   constructor(private svc: ProductsService) {}
 
   ngOnInit(): void {
@@ -66,6 +86,24 @@ export class ProductsListComponent implements OnInit {
       next: data => { this.products = data; this.loading = false; },
       error: _ => { this.loading = false; alert('Error cargando productos'); }
     });
+  }
+
+  private normalize(str: string): string {
+    return (str ?? '').toString()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // quita acentos
+      .toLowerCase();
+  }
+
+  filteredProducts(): Product[] {
+    const nameTerm = this.normalize(this.searchName.trim());
+    return this.products.filter(p =>
+      !nameTerm || this.normalize(p.name ?? '').includes(nameTerm)
+    );
+  }
+
+  clearFilters() {
+    this.searchName = '';
   }
 
   onDelete(p: Product) {

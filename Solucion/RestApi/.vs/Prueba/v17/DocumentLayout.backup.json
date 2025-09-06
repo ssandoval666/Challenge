@@ -78,8 +78,7 @@
               "RelativeToolTip": "Api\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwDkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T14:24:23.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T14:24:23.769Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Api\\Models\\Models.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T13:50:49.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T13:50:49.67Z"
             },
             {
               "$type": "Document",
@@ -112,9 +110,9 @@
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Controllers\\ProductsController.cs*",
-              "RelativeToolTip": "Api\\Controllers\\ProductsController.cs*",
-              "ViewState": "AgIAAEQAAAAAAAAAAAApwGEAAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAIAwwGoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T13:50:16.534Z",
               "EditorCaption": ""
