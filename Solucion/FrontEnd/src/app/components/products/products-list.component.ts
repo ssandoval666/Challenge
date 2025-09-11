@@ -45,7 +45,7 @@ import { Product } from '../../models/product.model';
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let p of filteredProducts()">
+            <tr *ngFor="let p of paginatedProducts()">
               <td>{{ p.productID }}</td>
               <td>{{ p.name }}</td>
               <td class="text-muted">{{ p.description }}</td>
@@ -65,6 +65,27 @@ import { Product } from '../../models/product.model';
         </table>
       </div>
     </div>
+
+    <!-- Paginación con números -->
+    <div class="card-footer d-flex justify-content-center">
+      <nav>
+        <ul class="pagination mb-0">
+          <li class="page-item" [class.disabled]="currentPage === 1">
+            <a class="page-link" (click)="prevPage()">«</a>
+          </li>
+
+          <li class="page-item"
+              *ngFor="let page of pagesArray()"
+              [class.active]="page === currentPage">
+            <a class="page-link" (click)="goToPage(page)">{{ page }}</a>
+          </li>
+
+          <li class="page-item" [class.disabled]="currentPage === totalPages">
+            <a class="page-link" (click)="nextPage()">»</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
   `
 })
@@ -73,6 +94,10 @@ export class ProductsListComponent implements OnInit {
   loading = false;
 
   searchName = '';
+
+  // Paginación
+  currentPage = 1;
+  pageSize = 2;
 
   constructor(private svc: ProductsService) {}
 
@@ -91,7 +116,7 @@ export class ProductsListComponent implements OnInit {
   private normalize(str: string): string {
     return (str ?? '').toString()
       .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '') // quita acentos
+      .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase();
   }
 
@@ -102,8 +127,41 @@ export class ProductsListComponent implements OnInit {
     );
   }
 
+  paginatedProducts(): Product[] {
+    const filtered = this.filteredProducts();
+    const start = (this.currentPage - 1) * this.pageSize;
+    return filtered.slice(start, start + this.pageSize);
+  }
+
+  get totalPages(): number {
+    return Math.max(1, Math.ceil(this.filteredProducts().length / this.pageSize));
+  }
+
+  pagesArray(): number[] {
+    return Array.from({ length: this.totalPages }, (_, i) => i + 1);
+  }
+
+  goToPage(page: number) {
+    if (page >= 1 && page <= this.totalPages) {
+      this.currentPage = page;
+    }
+  }
+
+  nextPage() {
+    if (this.currentPage < this.totalPages) {
+      this.currentPage++;
+    }
+  }
+
+  prevPage() {
+    if (this.currentPage > 1) {
+      this.currentPage--;
+    }
+  }
+
   clearFilters() {
     this.searchName = '';
+    this.currentPage = 1;
   }
 
   onDelete(p: Product) {

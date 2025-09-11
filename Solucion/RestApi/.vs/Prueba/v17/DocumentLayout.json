@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\cqrs\\products\\commands\\createdeleteproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\cqrs\\products\\commands\\createdeleteproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\cqrs\\categories\\commands\\createdeletecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\cqrs\\categories\\commands\\createdeletecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\cqrs\\products\\queries\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\cqrs\\products\\queries\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\cqrs\\categories\\queries\\getcategoriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\cqrs\\categories\\queries\\getcategoriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\context\\cqrsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\context\\cqrsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|c:\\users\\sebastian\\desktop\\prueba\\challenge\\solucion\\restapi\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED562DFE-B9EF-5F88-771F-EBF333E4D08F}|Api\\Api.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,26 +99,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAmwLMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T13:50:16.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateDeleteProduct.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\CQRS\\Products\\Commands\\CreateDeleteProduct.cs",
+              "RelativeDocumentMoniker": "Api\\CQRS\\Products\\Commands\\CreateDeleteProduct.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\CQRS\\Products\\Commands\\CreateDeleteProduct.cs",
+              "RelativeToolTip": "Api\\CQRS\\Products\\Commands\\CreateDeleteProduct.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADgvygAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:36:55.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Api\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDkAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAiwG8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T14:24:23.769Z"
+              "WhenOpened": "2025-09-05T14:24:23.769Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Models.cs",
-              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Models\\Models.cs",
-              "RelativeDocumentMoniker": "Api\\Models\\Models.cs",
-              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Models\\Models.cs",
-              "RelativeToolTip": "Api\\Models\\Models.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "GetProductsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\CQRS\\Products\\Queries\\GetProductsQuery.cs",
+              "RelativeDocumentMoniker": "Api\\CQRS\\Products\\Queries\\GetProductsQuery.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\CQRS\\Products\\Queries\\GetProductsQuery.cs",
+              "RelativeToolTip": "Api\\CQRS\\Products\\Queries\\GetProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T13:50:49.67Z"
+              "WhenOpened": "2025-09-09T16:37:02.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -100,21 +156,87 @@
               "RelativeDocumentMoniker": "Api\\Program.cs",
               "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Program.cs",
               "RelativeToolTip": "Api\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwGcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T14:10:32.448Z"
+              "WhenOpened": "2025-09-05T14:10:32.448Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Api\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAIAwwGoAAAADAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CreateDeleteCategory.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\CQRS\\Categories\\Commands\\CreateDeleteCategory.cs",
+              "RelativeDocumentMoniker": "Api\\CQRS\\Categories\\Commands\\CreateDeleteCategory.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\CQRS\\Categories\\Commands\\CreateDeleteCategory.cs",
+              "RelativeToolTip": "Api\\CQRS\\Categories\\Commands\\CreateDeleteCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T13:50:16.534Z",
+              "WhenOpened": "2025-09-09T15:40:47.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CQRSDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Context\\CQRSDbContext.cs",
+              "RelativeDocumentMoniker": "Api\\Context\\CQRSDbContext.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Context\\CQRSDbContext.cs",
+              "RelativeToolTip": "Api\\Context\\CQRSDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T15:32:56.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Models\\Models.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\Models.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Models\\Models.cs",
+              "RelativeToolTip": "Api\\Models\\Models.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T17:37:34.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-09T14:04:51.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetCategoriesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\CQRS\\Categories\\Queries\\GetCategoriesQuery.cs",
+              "RelativeDocumentMoniker": "Api\\CQRS\\Categories\\Queries\\GetCategoriesQuery.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\CQRS\\Categories\\Queries\\GetCategoriesQuery.cs",
+              "RelativeToolTip": "Api\\CQRS\\Categories\\Queries\\GetCategoriesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:35:49.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Api",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Api.csproj",
+              "RelativeDocumentMoniker": "Api\\Api.csproj",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\Prueba\\Challenge\\Solucion\\RestApi\\Api\\Api.csproj",
+              "RelativeToolTip": "Api\\Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-09T14:09:08.29Z",
               "EditorCaption": ""
             }
           ]

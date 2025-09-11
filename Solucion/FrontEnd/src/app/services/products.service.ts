@@ -2,12 +2,13 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map, tap } from 'rxjs';
 import { Product } from '../models/product.model';
+import { API_BASE } from './api.config';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductsService {
-  private apiUrl = 'https://localhost:7047/Api/Products';
+  private apiUrl = `${API_BASE}/Products`;
 
   constructor(private http: HttpClient) {}
 
@@ -77,6 +78,7 @@ getById(id: number): Observable<Product> {
     categoryIDs: product.productCategories.map(pc => pc.categoryID)
   };
   
+    console.log(`${this.apiUrl}/${id}`);
     return this.http.put<void>(`${this.apiUrl}/${id}`, dto);
   }
 
